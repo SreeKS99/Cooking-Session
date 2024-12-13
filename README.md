@@ -20,3 +20,5 @@ To run this project, you need to have Python installed along with some essential
 
 ```bash
 pip install pandas matplotlib seaborn openpyxl
+python cooking_sessions_analysis.py
+
