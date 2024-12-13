@@ -1,13 +1,22 @@
-Dataset
-The dataset should include the following key columns:
+# Cooking Sessions and User Orders Analysis
 
-User Demographics: Age, Location
-Cooking Sessions: Session ID
-Order Details: Meal Type, Dish Name, Order Status, Amount, Rating
-Ensure your dataset is saved in Excel format (.xlsx) and matches the column requirements.
+This Python project performs exploratory data analysis (EDA) on a dataset that includes user cooking sessions and orders. The program visualizes key trends, such as the relationship between cooking sessions and orders, identifies popular dishes, and explores demographic factors that influence user behavior. The analysis also includes business recommendations based on the findings.
 
-Outputs
-Orders by Cooking Sessions: Bar chart showing session-based order counts.
-Popular Dishes: Chart highlighting frequently ordered dishes.
-Age Group Insights: Analysis of order frequency and ratings by age.
-Location Trends: Heatmap for order distribution across locations.
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Data Structure](#data-structure)
+- [Visualizations](#visualizations)
+- [Insights and Recommendations](#insights-and-recommendations)
+- [Contributing](#contributing)
+
+## Installation
+
+To run this project, you need to have Python installed along with some essential libraries. Follow the steps below to set up the environment.
+
+1. Clone the repository or download the project files.
+2. Navigate to the project directory.
+3. Install the required dependencies using `pip`:
+
+```bash
+pip install pandas matplotlib seaborn openpyxl
