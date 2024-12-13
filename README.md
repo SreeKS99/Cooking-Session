@@ -34,7 +34,7 @@ The goal of this project is to analyze the relationship between cooking sessions
 
 3. Install the required libraries:
 
-- pip install pandas matplotlib seaborn openpyxl
+`pip install pandas matplotlib seaborn openpyxl`
 
 
 4. Ensure the dataset merged.xlsx is in the project directory.
@@ -44,7 +44,7 @@ The goal of this project is to analyze the relationship between cooking sessions
 ## Usage
 Run the analysis script:
  
-- python cooking_sessions_analysis.py
+`python cooking_sessions_analysis.py`
 
 The program will load the dataset, clean the data, generate visualizations, and display insights along with business recommendations.
 ## Data Structure
@@ -107,7 +107,12 @@ See `contributing.md` for ways to get started.
 
 Please adhere to this project's `code of conduct`.
 
-### **How the README Works:**
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+### How the README Works:
 - **Installation**: It provides the necessary steps to install Python dependencies and get the dataset in place.
 - **Usage**: Explains how to run the Python script and what to expect from the program.
 - **Data Structure**: Lists the columns from the dataset that the program will use for analysis.
