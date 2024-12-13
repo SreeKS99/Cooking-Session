@@ -107,3 +107,12 @@ See `contributing.md` for ways to get started.
 
 Please adhere to this project's `code of conduct`.
 
+### **How the README Works:**
+- **Installation**: It provides the necessary steps to install Python dependencies and get the dataset in place.
+- **Usage**: Explains how to run the Python script and what to expect from the program.
+- **Data Structure**: Lists the columns from the dataset that the program will use for analysis.
+- **Visualizations**: Describes the types of visualizations that will be created by the script.
+- **Insights and Recommendations**: Summarizes the findings of the analysis and includes business recommendations.
+- **Contributing**: Mentions that others can contribute to the project and provides the necessary instructions.
+  
+This `README.md` file provides a clear guide on how to set up, run, and understand the project. Let me know if you need any further modifications
