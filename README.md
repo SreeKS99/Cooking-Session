@@ -1,24 +1,109 @@
-# Cooking Sessions and User Orders Analysis
 
-This Python project performs exploratory data analysis (EDA) on a dataset that includes user cooking sessions and orders. The program visualizes key trends, such as the relationship between cooking sessions and orders, identifies popular dishes, and explores demographic factors that influence user behavior. The analysis also includes business recommendations based on the findings.
+# Cooking Sessions
+
+This project performs an exploratory data analysis (EDA) on a dataset containing user cooking sessions and orders. It generates visualizations, extracts key insights, and offers business recommendations based on the findings.
+
+
 
 ## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [Data Structure](#data-structure)
-- [Visualizations](#visualizations)
-- [Insights and Recommendations](#insights-and-recommendations)
-- [Contributing](#contributing)
+
+- Project Overview
+
+- Installation
+
+- Usage
+
+- Data Structure
+
+- Visualizations
+
+- Insights and Recommendations
+
+- Contributing
+
+- License
+## Project Overview
+
+The goal of this project is to analyze the relationship between cooking sessions and user orders, identify popular dishes, and explore demographic factors influencing user behavior.
 
 ## Installation
 
-To run this project, you need to have Python installed along with some essential libraries. Follow the steps below to set up the environment.
-
 1. Clone the repository or download the project files.
-2. Navigate to the project directory.
-3. Install the required dependencies using `pip`:
 
-```bash
-pip install pandas matplotlib seaborn openpyxl
-python cooking_sessions_analysis.py
+2. Navigate to the project directory.
+
+3. Install the required libraries:
+
+- pip install pandas matplotlib seaborn openpyxl
+
+
+4. Ensure the dataset merged.xlsx is in the project directory.
+
+
+
+## Usage
+Run the analysis script:
+ 
+- python cooking_sessions_analysis.py
+
+The program will load the dataset, clean the data, generate visualizations, and display insights along with business recommendations.
+## Data Structure
+The dataset should include the following key columns:
+
+### User Data:
+
+- User ID, User Name, Age, Location, Registration Date, Phone, Email, Favorite Meal, Total Orders
+
+### Cooking Sessions:
+
+- Session ID, User ID, Dish Name, Meal Type, Session Start, Session End, Duration (mins), Session Rating
+
+### Order Details:
+
+- Order ID, User ID, Order Date, Meal Type, Dish Name, Order Status, Amount (USD), Time of Day, Rating, Session ID
+
+## Visualizations
+
+The following visualizations will be generated:
+
+1. Orders vs. Cooking Sessions: Scatter plot showing the correlation between the number of cooking sessions and user orders.
+
+2. Top 10 Most Ordered Dishes: Bar plot highlighting frequently ordered dishes.
+
+3. Session Duration by Meal Type: Box plot comparing session durations.
+
+4. Age Distribution by Meal Type: Box plot showing age distribution for different meal types.
+
+## Insights and Recommendations
+
+### Key Insights:
+
+1. Cooking Sessions and Orders: A positive correlation exists—users participating in more cooking sessions tend to place more orders.
+
+2. Popular Dishes: “Spaghetti” and “Grilled Chicken” are the most ordered dishes.
+
+3. Age Demographics: Users aged 25-35 are more engaged in cooking and ordering.
+
+4. Session Durations: Dinner sessions have longer durations compared to other meals.
+
+5. Order Cancellations: Some users exhibit inconsistent behavior with canceled sessions.
+
+### Business Recommendations:
+
+1. Promote Popular Dishes: Increase marketing for “Spaghetti” and “Grilled Chicken.”
+
+2. Loyalty Programs: Offer rewards to highly engaged users.
+
+3. Target Young Users: Focus marketing efforts on users aged 25-35.
+
+4. Reduce Cancellations: Address issues leading to canceled sessions.
+
+5. Dinner Promotions: Offer special discounts for dinner orders.
+## Contributing
+
+Contributions are always welcome!
+
+See `contributing.md` for ways to get started.
+
+Please adhere to this project's `code of conduct`.
 
